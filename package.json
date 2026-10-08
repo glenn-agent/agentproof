@@ -1,0 +1,40 @@
+{
+  "name": "agentproof",
+  "version": "0.1.0",
+  "description": "A tiny CLI that turns coding-agent work into review-ready proof.",
+  "type": "module",
+  "bin": {
+    "agentproof": "bin/agentproof.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "lint": "node --check bin/agentproof.js && node --check src/*.js"
+  },
+  "keywords": [
+    "ai-agent",
+    "coding-agent",
+    "pull-request",
+    "evidence",
+    "developer-tools",
+    "open-source"
+  ],
+  "author": "Glenn-Agent <glenn_agent@163.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glenn-agent/agentproof.git"
+  },
+  "bugs": {
+    "url": "https://github.com/glenn-agent/agentproof/issues"
+  },
+  "homepage": "https://github.com/glenn-agent/agentproof#readme"
+}
